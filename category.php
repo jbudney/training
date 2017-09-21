@@ -4,7 +4,7 @@
  include "template/header.php";
 
 	$categories = array();
-	$conn = mysqli_connect("127.0.0.1", "root", "Letmein1", "sakila"); 
+	$conn = mysqli_connect("127.0.0.1", "root", "XXXXX", "sakila"); 
 	$sql="SELECT name, category_id FROM sakila.category;";
 	$result = $conn->query($sql);
         if (!$result) {
